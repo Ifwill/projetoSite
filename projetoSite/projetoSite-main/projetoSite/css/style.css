@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,400&display=swap');
+:root{
+    --preto: #000;
+    --braco: #FEFCFD;
+    --marrom: #54442B;
+    --detalhe: #FFD447;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+#icon{
+    cursor: pointer;
+    width: 50px;
+    margin-left: 35px;
+    margin-top: -20px;
+}
+
+.links > a{
+    color: var(--braco);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.links{
+    margin-left: 400px;
+}
+
+.interacao{
+    width: 20px;
+    height: 20px;
+    margin-left: 95px;
+    cursor: pointer;
+}
+
+.box-divs{
+    display: flex;
+    flex-direction: row;
+}
+
+.lado{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    display: flex;
+    width: 250px;
+    height: 470px;
+    background-color: var(--marrom);
+    border-radius: 9px;
+    margin: 10px;
+}
+
+.box-um{
+    width: 250px;
+    height: 200px;
+    border-radius: 9px;
+    background-color: var(--marrom);
+    margin: 10px;
+}
+
+.box-dois{
+    width: 250px;
+    height: 250px;
+    background-color: var(--marrom);
+    border-radius: 9px;
+    margin: 10px;
+}
+
+.box-tres{
+    width: 250px;
+    height: 150px;
+    background-color: var(--marrom);
+    margin: 10px;
+    border-radius: 9px;
+}
+
+.box-quatro{
+    width: 115px;
+    height: 60px;
+    background-color: var(--marrom);
+    border-radius: 9px;
+    margin: 10px;
+}
+
+.box-cinco{
+    width: 115px;
+    height: 60px;
+    background-color: var(--marrom);
+    margin: 10px;
+    border-radius: 9px;
+}
+
+.box-seis{
+    width: 250px;
+    height: 100px;
+    background-color: var(--marrom);
+    margin: 10px;
+    border-radius: 9px;
+}
+
+.box-sete{
+    width: 250px;
+    height: 100px;
+    background-color: var(--marrom);
+    margin: 10px;
+    border-radius: 9px;
+}
+
+
+.menuLateral{
+    display: flex;
+    flex-direction: column;
+}
+
+.menuLateral > a{
+    color: var(--braco);
+    text-decoration: none;
+    margin: 10px;
+    margin-right: 85px;
+    margin-left: 15px;
+    border-bottom: solid 1px var(--braco);
+}
+
+.escada{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: var(--braco);
+}
